@@ -10,13 +10,10 @@ class AppWidget extends StatelessWidget {
   const AppWidget({Key? key, required this.title}) : super(key: key);
 
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(
-        child: Text(
-          title,
-          textDirection: TextDirection.ltr,
-          style: TextStyle(color: Colors.white, fontSize: 50.0),
-        ),
+    return MaterialApp(
+      theme: ThemeData(primarySwatch: Colors.red),
+      home: Container(
+        child: Center(child: Text('Flutterando')),
       ),
     );
   }
