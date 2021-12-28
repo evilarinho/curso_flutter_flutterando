@@ -1,6 +1,7 @@
 CURSO COMPLETO DE FLUTTER - Flutterando
 Com Jacob Moura
 54 vídeos -  Última atualização em 8 de nov. de 2020
+https://youtube.com/playlist?list=PLlBnICoI-g-d-J57QIz6Tx5xtUDGQdBFB
 2021/12
 
 ----------------------------------------------------------------------------------
