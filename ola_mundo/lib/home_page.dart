@@ -14,18 +14,18 @@ class HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text('HomePage'),
       ),
-      body: Center(
-          child: GestureDetector(
-        child: Text(
-          'Contador: $counter',
-          style: TextStyle(fontSize: 30),
+      body: Container(
+        height: 200,
+        width: 200,
+        color: Colors.black,
+        child: Center(
+          child: Container(
+            height: 100,
+            width: 100,
+            color: Colors.green,
+          ),
         ),
-        onTap: () {
-          setState(() {
-            counter++;
-          });
-        },
-      )),
+      ),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
         onPressed: () {
